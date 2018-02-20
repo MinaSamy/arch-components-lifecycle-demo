@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val lifeCycleObserver = MyLifeCycleObserver(lifecycle)
+        val lifeCycleObserver = MyLifeCycleObserver(lifecycle, MyLogger())
         lifecycle.addObserver(lifeCycleObserver)
 
         val intentButton = findViewById<Button>(R.id.button_intent)
