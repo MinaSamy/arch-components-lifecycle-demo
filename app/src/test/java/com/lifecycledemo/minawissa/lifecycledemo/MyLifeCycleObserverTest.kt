@@ -33,7 +33,7 @@ class MyLifeCycleObserverTest {
 
     @Test
     fun shouldLogStart() {
-        lifeCycle.markState(Lifecycle.State.RESUMED)
+        lifeCycle.markState(Lifecycle.State.STARTED)
         verify(logger).logStart()
     }
 
