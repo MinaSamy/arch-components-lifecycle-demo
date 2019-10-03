@@ -3,4 +3,5 @@
     <string name="display_dialog">Display dialog</string>
     <string name="launch_intent">Launch Intent</string>
     <string name="dialog_fragment">Dialog Fragment</string>
+    <string name="home_page">https://developer.android.com/topic/libraries/architecture/lifecycle</string>
 </resources>
